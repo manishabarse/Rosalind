@@ -1,1 +1,1 @@
-# Rosalind
+# Rosalind Solutions
