@@ -14,9 +14,9 @@ If you cannot find what you are searching for, check how the database interprete
 
 For example, if you search for Drosophila, the Search details field will contain (Drosophila[All Fields]), and you will obtain all entries that mention Drosophila (including all its endosymbionts). You can restrict your search to only organisms belonging to the Drosophila genus by using a search tag and searching for Drosophila[Organism].
 
-Given: A genus name, followed by two dates in YYYY/M/D format.
+## Given: A genus name, followed by two dates in YYYY/M/D format.
 
-Return: The number of Nucleotide GenBank entries for the given genus that were published between the dates specified.
+## Return: The number of Nucleotide GenBank entries for the given genus that were published between the dates specified.
 
 `Sample Dataset`
 
