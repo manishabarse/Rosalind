@@ -1,4 +1,3 @@
-
 #! /usr/bin/env python
 
 """
@@ -14,7 +13,7 @@ Return: Four integers (separated by spaces) representing the respective number o
 
 from Bio.Seq import Seq
 
-def ini_armory():
+def ini_armory(output_file):
     # Read the DNA sequence from the text file
     with open('rosalind_ini.txt', 'r') as file:
         dna_sequence = file.read().strip()
@@ -30,6 +29,13 @@ def ini_armory():
         
     print() # Move to the next line after printing count
     
+    # Write the count to output file
+    with open(output_file, 'w') as output_data:
+        output_data.write(" ".join(str(symbol_count[nucleotide]) for nucleotide in 'ACGT'))
+
 
 if __name__ == "__main__":
-    ini_armory()
+    # Define the output file path
+    output_file = 'ini_output.txt'
+    
+    ini_armory(output_file)
