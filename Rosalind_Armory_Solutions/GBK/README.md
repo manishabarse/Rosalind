@@ -20,9 +20,9 @@ For example, if you search for Drosophila, the Search details field will contain
 
 `Sample Dataset`
 
-Anthoxanthum
-2003/7/25
-2005/12/27
+Anthoxanthum   
+2003/7/25     
+2005/12/27     
 
 `Sample Output`
 
